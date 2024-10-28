@@ -1455,7 +1455,10 @@ text-decoration:none}
       
       
       
-
+      .footer-links a:hover{
+        color: #00a6eb;
+      /*   <!--滑鼠滑過去變色▲   --> */
+      }
 
 
 
