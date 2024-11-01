@@ -60,7 +60,8 @@ table {
 .header{
 display: flex;
 background: #023b6d;
-width: 100%;
+width:100%;
+margin: auto;
 height: 32px;
 display: flex;
 position: absolute;
@@ -68,6 +69,7 @@ top: 0;
 position: fixed;
 /* 滾輪滾動時定住不動 */
 z-index: 50;
+
 }
 
 
@@ -159,6 +161,8 @@ height: 32px;
   padding: 12px;
   display: flex;
   align-items: center;
+  width:1920px ;
+  margin: auto;
 }
 
 
@@ -220,6 +224,8 @@ height: 32px;
   padding: 20px;
   background-color: rgb(255, 255, 255);
   display: flex;
+  width: 1920px;
+  margin: auto;
 }
 
 
@@ -287,7 +293,8 @@ height: 32px;
   }
 
   .welcome{
-    width: 100%;
+    width: 1920px;
+    margin: auto;
     background-image: url(https://bootstrapmade.com/content/demo/Medilab/assets/img/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -412,35 +419,44 @@ height: 32px;
           margin-top: 20px;
           width: 300px; 
           }
+       .abo{
+        display: flex;
+        margin-top: 30px;
+       }
 
+       
           .aboutus{
          display: flex; 
           padding-bottom: 500px;
           padding-top: 30px;
-         
+          width: 1920px;
+          margin: auto;
        }
 
 
       .abuimg  img{
         position: absolute;
-        width: 45%; /* 佔總寬度的50%，也可以換成任何你想要的寬度 */
+        width: 900px; /* 佔總寬度的50%，也可以換成任何你想要的寬度 */
         padding-left: 100px; 
         margin-left:100px;
-       
       }
-
-      .from-aboutus img{
-        position: absolute;
-        width: 11%;
-        right: 720px;
-        padding-top: 50px;
+      
+      .aboutusimg {
+        display: flex;
+        flex-direction: column;
+        width: 80px;
+        margin-top: -20px;
+      }
+  
+      .aboutusimg img{
+        width: 120%;
+        padding-top: 30px;
       }
 
       .from-aboutus{
-        position: absolute;
         width: 750px;
-        margin-top: 30px;
-        right: 100px;
+        height: 550px;
+        margin-left: 950px;
       }
 
       
@@ -450,7 +466,7 @@ height: 32px;
         font-size: 45px;
         font-weight :1000;
         padding-bottom: 20px;
-      
+        margin-left: 10px;
       }
 
       .from-aboutus span{
@@ -459,7 +475,6 @@ height: 32px;
         font-size :16px;
         font-weight :600;
         line-height :2px;
-        
         }
         
         .from-aboutus h5{
@@ -468,8 +483,8 @@ height: 32px;
           font-family: Poppins, sans-serif;
           font-size: 20px;
           font-weight :800;
-          padding-top: 50px;
-          margin-left: 70px;
+          margin-left: 50px;
+          margin-top: 30px;
         }
 
         .from-aboutus p{
@@ -478,7 +493,7 @@ height: 32px;
           font-size :16px;
           font-weight :600;
           line-height :30px;
-          margin-left: 70px;
+          margin-left: 50px;
           }
 
           .viedo,
@@ -495,7 +510,7 @@ height: 32px;
           color: #ffffff;
            font-size: 2rem;
            transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
-           left: 500px;
+           left: 550px;
            top: 250px;
             }
         .viedo:hover {
@@ -509,9 +524,8 @@ height: 32px;
          .item ul{
           display: flex;
           justify-content: space-evenly;
-          align-items: center;
-          
-             
+          width: 1920px;
+          margin: auto;
         }
         
         .item{
@@ -519,7 +533,9 @@ height: 32px;
           padding-top: 100px;
           padding-bottom: 70px;
           background:#f2f7fd;
-          
+          width: 1920px;
+          margin: auto;
+          margin-top: -480px;
         }
         .item li{
           display: flex;
@@ -568,6 +584,8 @@ height: 32px;
 
        .services-box{
         padding-bottom: 1000px;
+        width: 1920px;
+        margin: auto;
        }
        .services-box img{
          padding-top: 60px;  
@@ -576,7 +594,8 @@ height: 32px;
        
        .services-box ul{
         padding-left: 100px;
-     
+        width: 1920px;
+        margin: auto;
        }
        
        .services-box li{
@@ -668,6 +687,8 @@ height: 32px;
 
        .Appointment{
         padding-bottom:50px ;
+        width: 1920px;
+        width: auto;
    }
 
    .Appointment h2{
@@ -699,6 +720,8 @@ height: 32px;
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
+    width: 1920px;
+    width: auto;
    }
  
    .answer input{
@@ -770,8 +793,9 @@ height: 32px;
   }
 
   .Cardiology {
-    margin: 0 auto;
     display: flex;
+    width: 1920px;
+    margin: auto;
  }
  
  .ulbox ul{
@@ -834,6 +858,8 @@ height: 32px;
   background: #ffffff;
   padding-left: 300px;
   padding-bottom: 30px;
+  width: 1920px;
+  margin: auto;
   }
   .Doctors img{
       width: 130px; 
@@ -950,13 +976,16 @@ height: 32px;
 .fretittle{
   background:#f2f7fd;
   padding-top: 40px;
+  width: 1920px;
+  margin: auto;
 }
 
 .Frequently{
   background:#f2f7fd ;
   padding-bottom: 50px;
   padding-top: 10px;
-
+  width: 1920px;
+ margin: auto;
 }
 
 .frebox {
@@ -1008,7 +1037,7 @@ text-decoration:none}
  
 
   .Testimonials{
-    width: 1500;
+    width: 1920px;
     margin: 0 auto;
     display: flex;
     padding-top: 50px;
@@ -1133,7 +1162,8 @@ text-decoration:none}
 
     .Gallery{
       display: flex;
-      width: 100%;
+      width: 1920px;
+      margin: 0 auto;
       
     }
     .picbig{margin-right: 5px;}
@@ -1145,9 +1175,11 @@ text-decoration:none}
     .picbig img:hover{transform:scale(1.2,1.2);}
     
     .Gallerytwo{
-      margin-top: 5px;
+     
       display: flex;
-      width: 100%;
+      width: 1920px;
+      margin: 0 auto;
+      margin-top: 5px;
     }
     
 
@@ -1165,6 +1197,8 @@ text-decoration:none}
     .map{
       padding-bottom: 20px;
       margin-top: -20px;
+      width: 1920px;
+      margin: auto;
     }
     
 
@@ -1174,9 +1208,10 @@ text-decoration:none}
 
     .Contact{
       display: flex;
+      width: 1000px;
+      margin: auto;
       padding-top: 30px;
       padding-bottom: 50px;
-      margin-left: 25%;
     }
     
     .Contactul ul{
@@ -1222,12 +1257,16 @@ text-decoration:none}
 
     
     .Contbox{
+      width: 1920px;
+      margin: auto;
       margin-left: 60px;
       margin-top:15px ;
     }
     
     
     .Contactanswer{
+      width: 1920px;
+      margin: auto;
         padding-bottom: 20px;
         display: flex;
        }
@@ -1298,6 +1337,8 @@ text-decoration:none}
 
       .footer{
         background-color: #f2f7fd;
+        width: 1920px;
+        margin: auto;
       }
       
       .footer-contact{
